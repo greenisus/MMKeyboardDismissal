@@ -25,7 +25,8 @@ How to Use
   - UIScreen+MMKeyboardDismissal.m
   - NSObject+MMKeyboardDismissal.h
   - NSObject+MMKeyboardDismissal.m
-3. In your UIScrollViewDelegate, call the scroll view helper methods for scrollViewDidScroll and scrollViewDidEndDragging, like so:
+3. In your UIScrollViewDelegate, import UIScreen+MMKeyboardDismissal.h and NSObject+MMKeyboardDismissal.h
+4. In your UIScrollViewDelegate, call the scroll view helper methods for scrollViewDidScroll and scrollViewDidEndDragging, like so:
 
     - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
