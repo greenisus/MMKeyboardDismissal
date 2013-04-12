@@ -13,6 +13,7 @@ How to Use
   - NSObject+MMKeyboardDismissal.h
   - NSObject+MMKeyboardDismissal.m
 3. In your UIScrollViewDelegate, call the scroll view helper methods for scrollViewDidScroll and scrollViewDidEndDragging, like so:
+
     - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
         [self scrollViewDidScroll:scrollView forDismissableTextField:self.textField];
