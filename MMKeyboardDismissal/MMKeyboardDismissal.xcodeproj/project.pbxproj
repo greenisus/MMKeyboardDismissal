@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2742AA1917189BFD00ED62DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742AA1817189BFD00ED62DB /* UIKit.framework */; };
+		2742AA1B17189BFD00ED62DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742AA1A17189BFD00ED62DB /* Foundation.framework */; };
+		2742AA1D17189BFD00ED62DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742AA1C17189BFD00ED62DB /* CoreGraphics.framework */; };
+		2742AA2317189BFD00ED62DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2742AA2117189BFD00ED62DB /* InfoPlist.strings */; };
+		2742AA2517189BFD00ED62DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742AA2417189BFD00ED62DB /* main.m */; };
+		2742AA2917189BFD00ED62DB /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742AA2817189BFD00ED62DB /* MMAppDelegate.m */; };
+		2742AA2B17189BFD00ED62DB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2742AA2A17189BFD00ED62DB /* Default.png */; };
+		2742AA2D17189BFD00ED62DB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2742AA2C17189BFD00ED62DB /* Default@2x.png */; };
+		2742AA2F17189BFD00ED62DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2742AA2E17189BFD00ED62DB /* Default-568h@2x.png */; };
+		2742AA3217189BFD00ED62DB /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742AA3117189BFD00ED62DB /* MMViewController.m */; };
+		2742AA3517189BFD00ED62DB /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2742AA3317189BFD00ED62DB /* MMViewController.xib */; };
+		2742AA3E17189D4600ED62DB /* UIScreen+MMKeyboardDismissal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742AA3D17189D4600ED62DB /* UIScreen+MMKeyboardDismissal.m */; };
+		2742AA4817189E5100ED62DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742AA4717189E5100ED62DB /* QuartzCore.framework */; };
+		2742AA4B17189F8000ED62DB /* NSObject+MMKeyboardDismissal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742AA4A17189F8000ED62DB /* NSObject+MMKeyboardDismissal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2742AA1517189BFD00ED62DB /* MMKeyboardDismissal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMKeyboardDismissal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2742AA1817189BFD00ED62DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2742AA1A17189BFD00ED62DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2742AA1C17189BFD00ED62DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2742AA2017189BFD00ED62DB /* MMKeyboardDismissal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMKeyboardDismissal-Info.plist"; sourceTree = "<group>"; };
+		2742AA2217189BFD00ED62DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2742AA2417189BFD00ED62DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2742AA2617189BFD00ED62DB /* MMKeyboardDismissal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMKeyboardDismissal-Prefix.pch"; sourceTree = "<group>"; };
+		2742AA2717189BFD00ED62DB /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		2742AA2817189BFD00ED62DB /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		2742AA2A17189BFD00ED62DB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2742AA2C17189BFD00ED62DB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2742AA2E17189BFD00ED62DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2742AA3017189BFD00ED62DB /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		2742AA3117189BFD00ED62DB /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		2742AA3417189BFD00ED62DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+		2742AA3C17189D4600ED62DB /* UIScreen+MMKeyboardDismissal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+MMKeyboardDismissal.h"; sourceTree = "<group>"; };
+		2742AA3D17189D4600ED62DB /* UIScreen+MMKeyboardDismissal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+MMKeyboardDismissal.m"; sourceTree = "<group>"; };
+		2742AA4717189E5100ED62DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2742AA4917189F8000ED62DB /* NSObject+MMKeyboardDismissal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MMKeyboardDismissal.h"; sourceTree = "<group>"; };
+		2742AA4A17189F8000ED62DB /* NSObject+MMKeyboardDismissal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MMKeyboardDismissal.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2742AA1217189BFD00ED62DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2742AA4817189E5100ED62DB /* QuartzCore.framework in Frameworks */,
+				2742AA1917189BFD00ED62DB /* UIKit.framework in Frameworks */,
+				2742AA1B17189BFD00ED62DB /* Foundation.framework in Frameworks */,
+				2742AA1D17189BFD00ED62DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2742AA0C17189BFD00ED62DB = {
+			isa = PBXGroup;
+			children = (
+				2742AA1E17189BFD00ED62DB /* MMKeyboardDismissal */,
+				2742AA1717189BFD00ED62DB /* Frameworks */,
+				2742AA1617189BFD00ED62DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2742AA1617189BFD00ED62DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2742AA1517189BFD00ED62DB /* MMKeyboardDismissal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2742AA1717189BFD00ED62DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2742AA4717189E5100ED62DB /* QuartzCore.framework */,
+				2742AA1817189BFD00ED62DB /* UIKit.framework */,
+				2742AA1A17189BFD00ED62DB /* Foundation.framework */,
+				2742AA1C17189BFD00ED62DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2742AA1E17189BFD00ED62DB /* MMKeyboardDismissal */ = {
+			isa = PBXGroup;
+			children = (
+				2742AA3B17189D2E00ED62DB /* Categories */,
+				2742AA2717189BFD00ED62DB /* MMAppDelegate.h */,
+				2742AA2817189BFD00ED62DB /* MMAppDelegate.m */,
+				2742AA3017189BFD00ED62DB /* MMViewController.h */,
+				2742AA3117189BFD00ED62DB /* MMViewController.m */,
+				2742AA3317189BFD00ED62DB /* MMViewController.xib */,
+				2742AA1F17189BFD00ED62DB /* Supporting Files */,
+			);
+			path = MMKeyboardDismissal;
+			sourceTree = "<group>";
+		};
+		2742AA1F17189BFD00ED62DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2742AA2017189BFD00ED62DB /* MMKeyboardDismissal-Info.plist */,
+				2742AA2117189BFD00ED62DB /* InfoPlist.strings */,
+				2742AA2417189BFD00ED62DB /* main.m */,
+				2742AA2617189BFD00ED62DB /* MMKeyboardDismissal-Prefix.pch */,
+				2742AA2A17189BFD00ED62DB /* Default.png */,
+				2742AA2C17189BFD00ED62DB /* Default@2x.png */,
+				2742AA2E17189BFD00ED62DB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2742AA3B17189D2E00ED62DB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2742AA3C17189D4600ED62DB /* UIScreen+MMKeyboardDismissal.h */,
+				2742AA3D17189D4600ED62DB /* UIScreen+MMKeyboardDismissal.m */,
+				2742AA4917189F8000ED62DB /* NSObject+MMKeyboardDismissal.h */,
+				2742AA4A17189F8000ED62DB /* NSObject+MMKeyboardDismissal.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2742AA1417189BFD00ED62DB /* MMKeyboardDismissal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2742AA3817189BFD00ED62DB /* Build configuration list for PBXNativeTarget "MMKeyboardDismissal" */;
+			buildPhases = (
+				2742AA1117189BFD00ED62DB /* Sources */,
+				2742AA1217189BFD00ED62DB /* Frameworks */,
+				2742AA1317189BFD00ED62DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMKeyboardDismissal;
+			productName = MMKeyboardDismissal;
+			productReference = 2742AA1517189BFD00ED62DB /* MMKeyboardDismissal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2742AA0D17189BFD00ED62DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Mayo";
+			};
+			buildConfigurationList = 2742AA1017189BFD00ED62DB /* Build configuration list for PBXProject "MMKeyboardDismissal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2742AA0C17189BFD00ED62DB;
+			productRefGroup = 2742AA1617189BFD00ED62DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2742AA1417189BFD00ED62DB /* MMKeyboardDismissal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2742AA1317189BFD00ED62DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2742AA2317189BFD00ED62DB /* InfoPlist.strings in Resources */,
+				2742AA2B17189BFD00ED62DB /* Default.png in Resources */,
+				2742AA2D17189BFD00ED62DB /* Default@2x.png in Resources */,
+				2742AA2F17189BFD00ED62DB /* Default-568h@2x.png in Resources */,
+				2742AA3517189BFD00ED62DB /* MMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2742AA1117189BFD00ED62DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2742AA2517189BFD00ED62DB /* main.m in Sources */,
+				2742AA2917189BFD00ED62DB /* MMAppDelegate.m in Sources */,
+				2742AA3217189BFD00ED62DB /* MMViewController.m in Sources */,
+				2742AA3E17189D4600ED62DB /* UIScreen+MMKeyboardDismissal.m in Sources */,
+				2742AA4B17189F8000ED62DB /* NSObject+MMKeyboardDismissal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2742AA2117189BFD00ED62DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2742AA2217189BFD00ED62DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2742AA3317189BFD00ED62DB /* MMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2742AA3417189BFD00ED62DB /* en */,
+			);
+			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2742AA3617189BFD00ED62DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2742AA3717189BFD00ED62DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2742AA3917189BFD00ED62DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMKeyboardDismissal/MMKeyboardDismissal-Prefix.pch";
+				INFOPLIST_FILE = "MMKeyboardDismissal/MMKeyboardDismissal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2742AA3A17189BFD00ED62DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMKeyboardDismissal/MMKeyboardDismissal-Prefix.pch";
+				INFOPLIST_FILE = "MMKeyboardDismissal/MMKeyboardDismissal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2742AA1017189BFD00ED62DB /* Build configuration list for PBXProject "MMKeyboardDismissal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2742AA3617189BFD00ED62DB /* Debug */,
+				2742AA3717189BFD00ED62DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2742AA3817189BFD00ED62DB /* Build configuration list for PBXNativeTarget "MMKeyboardDismissal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2742AA3917189BFD00ED62DB /* Debug */,
+				2742AA3A17189BFD00ED62DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2742AA0D17189BFD00ED62DB /* Project object */;
+}
